@@ -21,7 +21,7 @@ def trim_wav_librosa(input_wav, output_wav, start_sec, end_sec):
     # Trim the audio
     trimmed_audio = y[start_sample:end_sample]
 
-    # Save the trimmed audio
+    # Save the trimmed audi
     librosa.output.write_wav(output_wav, trimmed_audio, sr)
 
 
