@@ -68,7 +68,6 @@ class LogSpectrogramExtractor:
 
 
 class MinMaxNormaliser:
-    """MinMaxNormaliser applies min max normalisation to an array."""
 
     def __init__(self, min_val, max_val):
         self.min = min_val
