@@ -182,9 +182,9 @@ if __name__ == "__main__":
     SAMPLE_RATE = 22050
     MONO = True
 
-    SPECTROGRAMS_SAVE_DIR = "C:\\Users\\yasha\\OneDrive\\Desktop\\music21\\spectrograms"
-    MIN_MAX_VALUES_SAVE_DIR = "C:\\Users\\yasha\\OneDrive\\Desktop\\music21\\minimax"
-    FILES_DIR = "C:\\Users\\yasha\\OneDrive\\Desktop\\music21\\music21datasetwav"
+    SPECTROGRAMS_SAVE_DIR = "C:\\Users\\yasha\\OneDrive\\Desktop\\music21(another)\\spectrograms"
+    MIN_MAX_VALUES_SAVE_DIR = "C:\\Users\\yasha\\OneDrive\\Desktop\\music21(another)\\minmax"
+    FILES_DIR = "C:\\Users\\yasha\\OneDrive\\Desktop\\music21(another)\\piano"
 
     # instantiate all objects
     loader = Loader(SAMPLE_RATE, DURATION, MONO)
