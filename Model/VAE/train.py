@@ -3,7 +3,6 @@ import tensorflow as tf
 import keras
 # from tensorflow import keras
 from keras.layers import InputLayer, Conv2D, Flatten, Dense, Reshape, Conv2DTranspose
-import matplotlib.pyplot as plt
 
 import os
 
@@ -88,11 +87,6 @@ n_epoch = 10
 latent_dim = 128
 spectrograms_path = "C:\\Users\\yasha\\OneDrive\\Desktop\\music21(another)\\spectrograms"
 
-
-# import dataset MNIST-Fashion dataset
-# (X_train, _), (X_test, _) = keras.datasets.fashion_mnist.load_data()
-# mnist = np.concatenate([X_train, X_test], axis=0)
-# mnist = np.expand_dims(mnist, -1).astype("float32") / 255
 
 # Load piano data
 def load_paino(spectrograms_path):

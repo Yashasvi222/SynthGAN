@@ -32,6 +32,6 @@ if __name__ == '__main__':
 
     notes_dict = dict(zip(notes, notes_names))
 
-    path = 'C:\\Users\\yasha\\OneDrive\\Desktop\\music21dataset'
+    # path = 'C:\\Users\\yasha\\OneDrive\\Desktop\\music21dataset'
 
-    collect_notes(notes_dict, path)
+    # collect_notes(notes_dict, path)
